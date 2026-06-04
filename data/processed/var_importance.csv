@@ -1,0 +1,14 @@
+﻿변수,RF_importance,SHAP_meanabs
+apt_share,0.2157,0.13687
+officetel_share,0.12417,0.07666
+avg_units,0.10881,0.05867
+dagagu_count,0.09418,0.05654
+old30_ratio,0.07366,0.03492
+avg_age,0.06868,0.02989
+villa_share,0.06435,0.03065
+gongsi_per_m2,0.06156,0.03255
+small_ratio,0.05501,0.02228
+공시지가대비전세가괴리,0.04392,0.01611
+youth_ratio,0.03672,0.01741
+new_density,0.02821,0.01206
+pop_density,0.02503,0.00917
