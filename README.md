@@ -25,6 +25,14 @@ pip install geopandas pandas scikit-learn scipy folium matplotlib PublicDataRead
   ```
 - 건축물대장 최신본은 공공데이터포털/open.eais.go.kr 에서 받아 data/external/ 에 둔다.
 - (또는 rt.molit.go.kr 자료제공에서 수동 CSV 다운로드)
+- 서울시 행정동 경계 Shapefile을 `data/external/` 경로에 추가한다.
+
+  ```
+  data/external/BND_ADM_DONG_PG.shp
+  ```
+
+  Shapefile은 `.shp` 파일만으로는 실행되지 않을 수 있으므로, `.shx`, `.dbf`, `.prj` 등 함께 제공되는 보조 파일도 같은 폴더에 저장한다. 이 파일은 행정동 단위 공간 조인, 취약도 집계, 지도 시각화에 사용된다.
+
 
 ### 2단계: Claude Code에게 시킬 것
 Claude Code 채팅창에 이렇게 요청하면 됨 (예시):
